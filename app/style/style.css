@@ -1,0 +1,68 @@
+#form {
+    margin: 0 auto ;
+    margin-top: 50px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 2px;
+    background: #d5b59c;
+}
+
+label {
+    margin: 10px 0 0 0;
+}
+
+.lata_btn {
+    margin: 0 auto ;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 15px;
+    min-width: 300px;
+}
+
+.box-button{
+    width: 100px;
+    margin: 3px;
+    padding: 2px;
+}
+
+#notificacao {
+    transition: .6s;
+    opacity: 0;
+    max-width: 680px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    
+}
+
+.aparecer{
+    opacity: 1 !important;
+}
+
+#notificacao p {
+    color: red;
+    font-weight: bold;
+    margin: 5.5px 0;
+}
+
+#notificacao .success {
+    color: green;
+}
+
+#visuID{
+
+}
+
+#visuID table{
+    border: 1px solid black;
+}
+
+#visuID tr, td, th{
+    margin: 0px 0px;
+    border: 1px solid black;
+    padding: 7px 10px;
+}
